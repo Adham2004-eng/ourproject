@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(140deg, #5f4dee, #a778ff);
   font-family: Arial, sans-serif;
@@ -64,4 +65,73 @@ button.d-none {
 
 button:hover {
     opacity: 0.85;
+}
+
+
+
+
+
+.search {
+  width: 50%;
+  margin: 30px auto;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.25);
+  color: white;
+  font-size: 15px;
+}
+
+
+.product-table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: rgba(20,20,40,0.85);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-table th, .product-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.product-table th {
+  background: #7b5cfa;
+  color: white;
+}
+
+.product-table tbody tr:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+
+.btn-update {
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.btn-update:hover {
+  background: darkorange;
+}
+
+.btn-delete {
+  background: red;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: darkred;
 }
