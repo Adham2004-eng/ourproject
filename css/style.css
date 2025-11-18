@@ -67,13 +67,16 @@ button:hover {
     opacity: 0.85;
 }
 
-
-
-
-
 .search {
   width: 50%;
   margin: 30px auto;
+}
+.search label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
 }
 
 #searchInput {
@@ -109,29 +112,4 @@ button:hover {
 
 .product-table tbody tr:hover {
   background: rgba(255,255,255,0.1);
-}
-
-
-.btn-update {
-  background: orange;
-  color: white;
-  border-radius: 8px;
-  padding: 5px 15px;
-  cursor: pointer;
-}
-
-.btn-update:hover {
-  background: darkorange;
-}
-
-.btn-delete {
-  background: red;
-  color: white;
-  border-radius: 8px;
-  padding: 5px 15px;
-  cursor: pointer;
-}
-
-.btn-delete:hover {
-  background: darkred;
 }
