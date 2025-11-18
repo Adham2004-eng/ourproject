@@ -10,7 +10,7 @@ Update existing products
 
 Delete products
 
-Search for products (by name or category)
+Search for products (by name)
 
 Display a full product list
 
